@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+}
+body{
+	background: #E6E6E6;
+}
+.header-top{
+	width: 100%;
+	background: #378FD9;
+
+}
+.navegacion{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding:30px 0;
+
+}
+#imglogo{
+	position: absolute;
+	height: 90px;
+	left: 47%;
+
+}
+
+input[type="search"]{
+	padding: 10px;
+	border: none;
+}
+/*ESTILOS DEL WRAP*/
+#wrap{
+	margin: auto;
+	width: 100%;
+	max-width: 1000px;
+	margin-top: 25px;
+
+}
+	#wrap .divpeli{
+		display: inline-block;
+		width: 200px;
+		height: 320px;
+		background-color: #275a86;
+		margin:10px;
+		border-radius: 5px;
+	}
+		#wrap .divpeli:hover{
+			cursor: pointer;
+		}
+		#wrap .divpeli img{
+			width: 200px;
+			height: 285px;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+		
+		p.titulo{
+			height: 10%;
+			text-align: center;
+			color: white;
+			position: relative;
+			top: 2.5%;
+			font-weight: bold;
+		}
+
+		p.puntuacion{
+			text-align: center;
+			color: yellow;
+			background: black;
+			width: 42px;
+			padding: 1px;
+			position: relative;
+			top: 89%;
+			border-radius: 5px;
+			
+
+		}
+		#wrap .sinresultados{
+			color: #378fd9;
+		}
+			#wrap #divdetalle .titulodetalle{
+				font-size: 35px;
+			}
+		
+		#wrap #divinfoizquierda{
+			float: left;
+			width: 40%;
+		
+		}
+			#wrap #divinfoizquierda img{
+				width: 100%;
+			}
+			#wrap #divinfoizquierda h1{
+				width: 100%;
+				height: 100%;
+				margin-bottom: 20px;
+				text-align: center;
+			}
+		#wrap #divinfoderecha{
+			float: right;
+			width: 60%;	
+			max-width: 57%;
+			margin-top: 80px;
+		}
+			#divinfoderecha h3,
+			#divinfoderecha p{
+				margin-bottom: 20px;
+			}
+				#divinfoderecha p#generos{
+					color: #043c6b;
+					font-weight: bold;
+				}
+			#divinfoderecha #divcompanias{
+				margin-bottom: 20px;
+			}
+				#divinfoderecha #divcompanias{
+					color: #c8850c;
+					font-weight: bold;
+				}
+			#divinfoderecha #divbanderas{
+				margin-bottom: 20px;
+			}
+				#divinfoderecha #divbanderas img{
+					margin: 10px;
+					border-radius: 50%;
+				}
+footer{
+	margin-top: 50px;
+	bottom:0px;
+	height:200px;
+	width:100%;
+	background-color: #378fd9;
+}
+	
+
+.hidden{
+	display: none;
+}
+
